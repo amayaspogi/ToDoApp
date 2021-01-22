@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "Portal": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "VS",
+        "ASPNETCORE_URLS": "http://localhost:4000",
+        "ApiUrl": "http://localhost:5000"
+      }
+    }
+  }
+}
